@@ -1,17 +1,17 @@
-# Clinic Queue Manager — Augmented 2–3 Trees
+# Clinic Queue Manager - Augmented 2-3 Trees
 
 A two-person academic Java project for managing doctors, FIFO patient queues, early departures, and workload-range statistics under explicit time and space constraints.
 
 ## Contributors
 
-- **Jonathan Zada:** primarily algorithmic thinking and data-structure selection. Chose 2–3 trees to satisfy the assignment's time and space constraints.
+- **Jonathan Zada:** primarily algorithmic thinking and data-structure selection. Chose 2-3 trees to satisfy the assignment's time and space constraints.
 - **Guy:** primarily implemented the Java code. Credited by first name.
 
 The implementation is joint coursework; this repository does not claim that Jonathan independently wrote the code. The reference-model test harness and repository documentation were added during later portfolio preparation, with AI assistance, and were not part of the original submission.
 
-## Why 2–3 trees?
+## Why 2-3 trees?
 
-The interface needs ordered operations with logarithmic bounds, including counting doctors by workload. A balanced 2–3 tree maintains logarithmic height through splits on insertion and borrowing or merging on deletion.
+The interface needs ordered operations with logarithmic bounds, including counting doctors by workload. A balanced 2-3 tree maintains logarithmic height through splits on insertion and borrowing or merging on deletion.
 
 The same generic implementation is reused for ID lookup, arrival-order queues, and an augmented workload index. Subtree counts and sums make workload queries possible without scanning all doctors. A plain queue would preserve FIFO order, but would not by itself solve patient lookup, arbitrary early departure, and workload-range aggregation.
 
