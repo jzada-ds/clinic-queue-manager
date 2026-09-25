@@ -9,6 +9,14 @@ A two-person academic Java project for managing doctors, FIFO patient queues, ea
 
 The implementation is joint coursework; this repository does not claim that Jonathan independently wrote the code. The reference-model test harness and repository documentation were added during later portfolio preparation, with AI assistance, and were not part of the original submission.
 
+## Course result
+
+**Grade: 100/100.** Course feedback, as supplied by Jonathan:
+
+> All tests passed! PPR: 11/11, Random ops: 34450/34450
+
+This result belongs to the original coursework. The independent reference-model checks documented below were added later and are separate from the course assessment.
+
 ## Why 2-3 trees?
 
 The interface needs ordered operations with logarithmic bounds, including counting doctors by workload. A balanced 2-3 tree maintains logarithmic height through splits on insertion and borrowing or merging on deletion.
