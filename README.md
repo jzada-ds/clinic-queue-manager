@@ -11,7 +11,7 @@ The implementation is joint coursework; this repository does not claim that Jona
 
 ## Course result
 
-**Grade: 100/100.** Course feedback, as supplied by Jonathan:
+**Grade: 100/100.** Course feedback:
 
 > All tests passed! PPR: 11/11, Random ops: 34450/34450
 
