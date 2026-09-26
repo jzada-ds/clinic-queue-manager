@@ -5,7 +5,7 @@ A two-person academic Java project for managing doctors, FIFO patient queues, ea
 ## Contributors
 
 - **Jonathan Zada:** primarily algorithmic thinking and data-structure selection. Chose 2-3 trees to satisfy the assignment's time and space constraints.
-- **Guy:** primarily implemented the Java code. Credited by first name.
+- **Guy Nadjharov:** primarily implemented the Java code.
 
 The implementation is joint coursework; this repository does not claim that Jonathan independently wrote the code. The reference-model test harness and repository documentation were added during later portfolio preparation, with AI assistance, and were not part of the original submission.
 
